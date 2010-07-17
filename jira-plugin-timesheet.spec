@@ -3,7 +3,7 @@
 Summary:	JIRA Timesheet report and portlet plugin
 Name:		jira-plugin-%{plugin}
 Version:	1.9
-Release:	1
+Release:	2
 Epoch:		1
 License:	BSD
 Group:		Libraries/Java
@@ -12,7 +12,7 @@ Source0:	https://studio.plugins.atlassian.com/svn/TIME/jars/atlassian-jira-plugi
 URL:		http://confluence.atlassian.com/display/JIRAEXT/Timesheet+report+and+portlet
 BuildRequires:	rpm-javaprov
 BuildRequires:	rpmbuild(macros) >= 1.300
-Requires:	jira >= 4.1.1-2
+Requires:	jira >= 4.0
 Obsoletes:	jira-enterprise-plugin-timesheet
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
