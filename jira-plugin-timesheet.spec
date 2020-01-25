@@ -1,5 +1,4 @@
 %define		plugin	timesheet
-%include	/usr/lib/rpm/macros.java
 Summary:	JIRA Timesheet report and portlet plugin
 Name:		jira-plugin-%{plugin}
 Version:	1.9
